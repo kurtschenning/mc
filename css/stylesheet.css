@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page {
+ width: 955px;
+}
+
+#header-banner {
+    border-left: 25px solid #F18E00;
+    border-right: 25px solid #F18E00;
+}
+
+#header-banner img {
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+#navigation-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: #F18E00;;
+
+}
+
+#navigation-bar-left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    min-width: 400px;
+    height: 8vh;
+    /* background-color: red; */
+}
+
+#dropdown-menu {
+    display: none;
+}
+
+#navigation-bar-right {
+    flex: 1;
+    min-width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 20px;
+    /* background-color: blue; */
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    /* background-color: #F18E00; */
+}
+
+.navigation-bar-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
+
+.navigation-bar-text-container p{
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    padding-bottom: 5px;
+    transition: 0.3s;
+}
+
+#navactive {
+    border-bottom: 1px solid white;
+}
+
+.navigation-bar-text-container p:hover{
+    border-bottom: 1px solid white;
+}
+
+#navigation-bar-cta {
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: #F18E00;
+    font-weight: 600;
+    transition: 0.15s;
+}
+
+#navigation-bar-cta:hover {
+    background-color: #F18E00;
+    color: white;
+}
+
+
+
+
+
+
+p {
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 660px) {
+
+    p {
+        font-size: 14px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #dropdown-menu {
+        display: block;
+    }
+    
+
+    #navigation-bar-left {
+        min-width: 0;
+    }
+  }
