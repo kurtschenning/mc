@@ -1,2 +1,10 @@
-60 min
-38 min
+Urenlijst
+
+setup
+	38 min
+
+Problemen met header (bijbetaling)
+	60 min
+
+Header
+	66 min
