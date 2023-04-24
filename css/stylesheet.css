@@ -6,7 +6,7 @@
 
 body {
     height: 3000px;
-    padding-top: 150px;
+    padding-top: 185px;
 }
 
 header {
@@ -33,16 +33,23 @@ header {
 
 #header-top {
     display: flex;
-    align-items: top;
+    align-items: center;
     justify-content: space-between;
     padding-left: 25px;
     /* background-color: lightgreen; */
     background-color: white;
     border-radius: 0px;
+    margin-bottom: -4px;
+    height: 110px;
 }
 
 #header-top img {
     height: 75px;
+}
+
+#header-top-right img {
+    height: 110px;
+
 }
 
 #header-bot {
@@ -133,6 +140,10 @@ a {
     #header-dropdown-menu {
         display: block;
     }
+}
+
+
+@media only screen and (max-width: 715px) {
 
     #header-top-extra-image {
         display: none;
