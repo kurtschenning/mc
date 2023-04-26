@@ -20,3 +20,13 @@ diensten bug fixes header inspiratie en contact mini row en half slot home page
 
 footer, header aanpassen
 	95 min
+
+Dropdownmenu en linken
+	36 min
+
+diensten pagina's maken en linken
+	89 min
+
+Dropdownmenu diensten proberen
+	18 min
+	
