@@ -14,3 +14,9 @@ Woorden die raken, half diensten.
 
 diensten
 	90 min
+
+diensten bug fixes header inspiratie en contact mini row en half slot home page
+	70 min
+
+footer, header aanpassen
+	95 min
