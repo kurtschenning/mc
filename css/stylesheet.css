@@ -403,6 +403,7 @@ nav p:hover {
     margin-bottom: 50px;
     /* color: white; */
     color: black;
+    text-align: center;
 }
 
 #row-5-bot-col {
@@ -413,7 +414,7 @@ nav p:hover {
     margin-bottom: 25px;
 }
 
-#row-5-bot-dienst-container {
+.row-5-bot-dienst-container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -427,7 +428,11 @@ nav p:hover {
     margin: 25px;
 }
 
-#row-5-bot-dienst-container:hover {
+.row-5-bot-dienst-container:hover {
+    background-color: #5c728b;
+}
+
+#diensten-active {
     background-color: #5c728b;
 }
 
@@ -591,6 +596,121 @@ nav p:hover {
 }
 
 
+#row-contact-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#row-contact-1-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+    padding: 25px;
+}
+
+#row-contact-1-bot {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    width: 325px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+form h2 {
+    align-items: center;
+}
+
+#row-contact-1-bot form input,
+#row-contact-1-bot form textarea {
+    width: 300px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    background-color: #ebebeb;
+    border: 2px solid rgba(252, 207, 3, 0);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+#row-contact-1-bot form textarea {
+    resize: none;
+}
+#row-contact-1-bot form input:focus,
+#row-contact-1-bot form textarea:focus {
+    border: 2px solid rgba(241, 142, 0, 1);
+}
+
+#row-contact-1-bot form button {
+    border: none;
+    outline: none;
+    width: 300px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #f18e00;
+    border: 2px solid rgba(241, 142, 0, 1);
+    color: white;
+}
+
+#row-contact-1-bot form button:hover {
+    background-color: white;
+    color: #f18e00;
+    border: 2px solid rgba(241, 142, 0, 1);
+    cursor: pointer;
+
+}
+
+
+#row-gezicht-1 {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    gap: 40px;
+    padding: 25px;
+}
+
+#gezicht-links,
+#gezicht-rechts {
+    flex: 1;
+}
+
+#gezicht-links {
+    display: flex;
+    align-items: top;
+    padding: 25px;
+    background-color: #F18E00;
+    color: white;
+    border-radius: 15px;
+}
+
+#gezicht-rechts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+    align-items: top;
+    padding: 25px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -650,6 +770,10 @@ a {
     #dropdown-container {
         display: flex;
     }
+
+    #row-gezicht-1 {
+    flex-direction: column;
+}
     
 }
 
